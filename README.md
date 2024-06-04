@@ -1,6 +1,5 @@
 This project involves the development of an assembler for assembly language programming, written in C. The primary goal is to understand how an assembler converts assembly language code into machine code that can be executed by a CPU. 
 The project covers the pre-processing, first pass, and second pass stages of assembling code, handling macros, and managing code instructions and data directives.
-The project includes three main stages: pre-processing, the first pass, and the second pass to ensure accurate processing and assembly of the code.
 During pre-processing, macros are identified and handled by adding them to a macro table and replacing them in the source file.
 During the first pass, labels and directives are processed, and the instruction and data counters are updated.
 During the second pass, the actual machine code is generated based on the processed information from the first pass.
